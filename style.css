@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    background-color: green;
+    color: white;
+}
+
+.main {
+    height: 300px;
+    width: 300px;
+    border: 5px red solid;
+  }
+  
+.box {
+height: 100px;
+width: 100px;
+background-color: salmon;
+position: absolute;
+top: 110px;
+left: 110px;
+border-style: dotted;
+border-color: blue;
+border-width: 5px;
+}
+
+p{
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar{
+    background-color: darkolivegreen;
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+    width: 100vw;
+    height: 50px;
+    top: 0;
+    padding-top: 10px;
+    padding-left:5px;
+}
+
+#landing{
+    background-image: url(https://www.sgs.sg/-/media/global/images/structural-website-images/hero-images/hero-agri-forestry.jpg);
+    width: 100vw;
+    height: 92vh;
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#greeting{
+    color: navy;
+    font-size: 70px;
+    font-weight: 700;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+}
